@@ -1,4 +1,4 @@
-# VisionSlot
+# Vision-Slot
 
 ## English
 
