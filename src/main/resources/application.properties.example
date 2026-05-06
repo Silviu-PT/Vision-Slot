@@ -1,0 +1,16 @@
+spring.application.name=VisionSlot
+spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=vision_slot;encrypt=true;trustServerCertificate=true
+spring.datasource.driver-class-name=com.microsoft.sqlserver.jdbc.SQLServerDriver
+spring.datasource.username=sa
+spring.datasource.password=YOUR_PASSWORD_HERE
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.SQLServerDialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.open-in-view=false
+spring.jpa.properties.hibernate.jdbc.time_zone=UTC
+spring.jackson.serialization.write-dates-as-timestamps=false
+spring.ldap.urls=ldap://YOUR_IP_HERE:389
+spring.ldap.base=dc=visionslot,dc=local
+spring.ldap.username=CN=Administrator,CN=Users,DC=visionslot,DC=local
+spring.ldap.password=YOUR_PASSWORD_HERE
+visionslot.notification.email.from=no-reply@visionslot.local
+springdoc.swagger-ui.path=/swagger-ui.html
