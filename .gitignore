@@ -1,0 +1,8 @@
+target/
+.idea/
+.vscode/
+*.iml
+*.log
+
+# Local configuration with real credentials should not be committed.
+application-local.properties
